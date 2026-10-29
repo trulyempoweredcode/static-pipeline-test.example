@@ -116,6 +116,16 @@
         "cookies-content",
         "footer"
       ]
+    },
+    {
+      "slug": "404",
+      "archetype": "error",
+      "sections": [
+        "nav",
+        "404",
+        "404-message",
+        "footer"
+      ]
     }
   ],
   "image_slots": [
