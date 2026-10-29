@@ -1,0 +1,167 @@
+{
+  "client": "static-pipeline-test.example",
+  "platform": "flat",
+  "reference": {
+    "kind": "chosen",
+    "demo": "demo-psychotherapist",
+    "why": "Alex writes plainly and warmly in the first person about talking therapy for adults, which is the calm, unhurried counselling register of demo-psychotherapist; its full-width photo hero works without a practitioner portrait (none was supplied) and its serif-plus-humanist pairing reads warm, not clinical. Deliberate deviation: palette calm-sage instead of forest-and-cream because the client asked for soft greens. Second deviation after the blind critic (29-10-2026): the demo's hero--fullwidth with a dark green wash read murky, so the homepage uses the library frost hero (hero--showcase, light card after the second critique, centred) to keep the photo crisp."
+  },
+  "palette_slug": "calm-sage",
+  "pairing_slug": "classic-humanist",
+  "hero_type": "hero hero--showcase hero--showcase-light hero--showcase-center",
+  "nav_style": "default",
+  "pages": [
+    {
+      "slug": "index",
+      "archetype": "home",
+      "sections": [
+        "nav",
+        "hero",
+        "fees",
+        "intro",
+        "testimonial",
+        "services-overview",
+        "cta",
+        "footer"
+      ]
+    },
+    {
+      "slug": "counselling-for-anxiety",
+      "archetype": "service-detail",
+      "sections": [
+        "nav",
+        "page-header",
+        "services",
+        "steps",
+        "testimonial",
+        "cta",
+        "footer"
+      ]
+    },
+    {
+      "slug": "bereavement-and-loss",
+      "archetype": "service-detail",
+      "sections": [
+        "nav",
+        "page-header",
+        "services",
+        "steps",
+        "cta",
+        "footer"
+      ]
+    },
+    {
+      "slug": "individual-counselling",
+      "archetype": "service-detail",
+      "sections": [
+        "nav",
+        "page-header",
+        "services",
+        "steps",
+        "cta",
+        "footer"
+      ]
+    },
+    {
+      "slug": "about",
+      "archetype": "about",
+      "sections": [
+        "nav",
+        "about-hero",
+        "qualifications",
+        "steps",
+        "testimonial",
+        "cta",
+        "footer"
+      ]
+    },
+    {
+      "slug": "fees",
+      "archetype": "pricing",
+      "sections": [
+        "nav",
+        "page-header",
+        "pricing",
+        "cta",
+        "footer"
+      ]
+    },
+    {
+      "slug": "contact",
+      "archetype": "contact",
+      "sections": [
+        "nav",
+        "page-header",
+        "contact-form",
+        "map",
+        "footer"
+      ]
+    },
+    {
+      "slug": "privacy",
+      "archetype": "legal",
+      "sections": [
+        "nav",
+        "page-header",
+        "privacy-content",
+        "footer"
+      ]
+    },
+    {
+      "slug": "cookies-policy",
+      "archetype": "legal",
+      "sections": [
+        "nav",
+        "page-header",
+        "cookies-content",
+        "footer"
+      ]
+    }
+  ],
+  "image_slots": [
+    {
+      "id": "home-hero",
+      "page": "index",
+      "slot": "images/hero.jpg",
+      "source": "generate",
+      "intent": "calm sunlit counselling room, linen armchair, trailing plants by a tall window, soft sage greens and warm cream, no people"
+    },
+    {
+      "id": "home-intro",
+      "page": "index",
+      "slot": "images/home-room.jpg",
+      "source": "generate",
+      "intent": "quiet corner of a counselling room, two soft chairs facing each other, a small plant and a lamp, soft green walls, natural light, no people"
+    },
+    {
+      "id": "anxiety-split",
+      "page": "counselling-for-anxiety",
+      "slot": "images/anxiety.jpg",
+      "source": "generate",
+      "intent": "steady, grounding still life: morning light on green leaves and a cup of tea on a windowsill, soft focus, calm, no people"
+    },
+    {
+      "id": "about-photo",
+      "page": "about",
+      "slot": "images/about.jpg",
+      "source": "generate",
+      "intent": "calm reading corner, linen armchair, fern, tall sash window, sage walls, no people"
+    },
+    {
+      "id": "bereavement-photo",
+      "page": "bereavement-and-loss",
+      "slot": "images/bereavement.jpg",
+      "source": "generate",
+      "intent": "small vase of white wildflowers on a wooden table in soft morning light, no people"
+    },
+    {
+      "id": "individual-photo",
+      "page": "individual-counselling",
+      "slot": "images/individual.jpg",
+      "source": "generate",
+      "intent": "garden path between soft green shrubs towards morning light, no people"
+    }
+  ],
+  "repeating_archetype": "service-detail",
+  "slice_approved": "2026-10-29T23:00:00Z"
+}
